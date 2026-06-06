@@ -12,7 +12,7 @@ usage: Prepare-CDAudio.ps1 [options] -Directory <path> -OutDirectory <path>
 options:
     -Help                    Show this help message
     -Directory <path>        Input directory containing audio tracks
-    -OutDirectory <path>     Output directory for resampled album folder
+    -OutDirectory <path>     Output directory for resampled audio folder
 "@
 }
 
