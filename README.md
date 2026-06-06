@@ -12,11 +12,11 @@ Make sure ```ffmpeg``` and ```ffprobe``` are available in your PATH.
 
 ## Usage:
 
-```.\resample.ps1 -Directory "C:\Music\InputAlbum" -OutDirectory "C:\Music\OutputDirectory"```
+```.\Prepare-CDAudio.ps1 -Directory <path> -OutDirectory <path>```
 
 Options:
 - -Directory → Input directory containing audio tracks
-- -OutDirectory → Output directory for resampled album folder
+- -OutDirectory → Output directory for resampled audio folder
 - -Help → Show usage information
 
 ## What it does
@@ -35,7 +35,7 @@ For each supported audio file (```.flac```, ```.wav```, ```.mp3```, ```.m4a```, 
 
 Creates a new folder:
 
-```<OutDirectory>\<AlbumName> - CDAudio\```
+```<OutDirectory>\<InputFolderName> - CDAudio\```
 
 ## Notes
 
